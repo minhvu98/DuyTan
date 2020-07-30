@@ -1,0 +1,128 @@
+
+/* Content text */
+body {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+}
+
+/* Logo text */
+.header-middle .logo-text h1 {
+	font-size: 55px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Main menu text */
+.header .header-menu li a {
+	font-size: 14px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Article title */
+.article-big-block .article-header h2, .article-small-block .article-header h2 {
+	font-size: 20px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Video title */
+.video-small h2 a {
+	font-size: 13px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Homepage's photo gallery title */
+.photo-gallery-blocks .images-content li div.article-header h2 a {
+	font-size: 16px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Blog page title */
+.content-article-title h2 {
+	font-size: 27px;
+	font-family: 'Tahoma', sans-serif;
+    text-transform:none;
+}
+
+/* Comment username */
+.comment-block .commment-content .user-nick {
+	margin-left: 75px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* "No comments" title */
+.no-comment-block b {
+	font-size: 22px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Error/succes message title */
+.huge-message .big-title {
+	font-size: 80px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Error/succes message second text */
+.huge-message .small-title {
+	font-size: 40px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Gallery Title */
+.gallery-box .gallery-box-header h2 {
+	font-size: 17px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Homepage's second column article title */
+.article-middle-block .article-header h2 a {
+	font-size: 13px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Sidebar panel title */
+.main-content-right .panel h3 {
+	font-size: 12px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Photo gallery title */
+.panel-gallery .gallery-header b a {
+	font-size: 13px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Sidebar article block title */
+.article-side-block .article-header h2 a,
+.article-classic .article-header h2 a {
+	font-size: 20px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Floating social button likes count text */
+.social-icons-float .social-icon .social-count {
+	font-size: 24px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Opened post title */
+.main-article-content h2.article-title {
+	font-size: 22px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Calendar dates */
+.main-article-content .article-controls .date .calendar-date {
+	font-size: 28px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* Bottom social button likes count text */
+.article-share-bottom .social-icon .social-count {
+	font-size: 11px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+/* "About author" author title */
+.author-content h3 {
+	font-size: 18px;
+	font-family: 'Tahoma', sans-serif;
+}

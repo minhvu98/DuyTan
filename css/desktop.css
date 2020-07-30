@@ -1,0 +1,10 @@
+
+
+.gallery .gallery-block .gallery-panel,
+.gallery .gallery-block .content-panel,
+.gallery .gallery-block .panel-content,
+.gallery .gallery-block .article-big-block,
+.gallery .gallery-block .article-photo {
+	width: 320px;
+}
+

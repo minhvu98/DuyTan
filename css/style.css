@@ -1,0 +1,403 @@
+
+/* Define the space for the popout. */
+#popout {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: absolute;
+	height: auto;
+	 }
+
+/* Basic formatting within the ad space. */
+#popout a, #popout a img {
+	text-decoration: none;
+	border: 0;
+	outline: 0;
+	color:#c93737; 
+	
+
+}
+#popout a span {
+	display: none; }
+
+/* Formatting the "Cap" - the part the user click to open the ad. */
+#popout #cap {
+	width: 280px;
+	height: 20px;
+	bottom: 0;
+	right:0;
+	z-index: 9999;
+	background:url(bg-cap.gif)/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bg-cap.gif*/ repeat-x;
+	color:#c93737;
+	text-align: center;
+	position: fixed;
+	cursor:pointer;
+}
+#planetmap a {
+    cursor: hand;
+}
+
+#popout #cap .demo
+{
+    background:url(open-icon.gif)/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/open-icon.gif*/ 5px 3px no-repeat;
+    padding-left: 23px;
+}
+/* Formatting the close button. */
+#popout a#close {
+	position: absolute;
+	cursor: pointer;
+    right: 8px;
+    top: 7px;
+    height:33px;
+    width:34px;
+    z-index:9999;
+}
+
+/* Formatting the ad itself. */
+#popout #adbox {
+	left: 50%;
+    position: fixed;
+    top: 50%;
+    z-index: 9998;
+    /*border: 1px solid #FFFFFF; */
+	}
+#popout #adbox .popup_link1 {
+        position: absolute;
+        width: 222px;
+        height: 29px;
+        top: 226px;
+        left: 263px;
+        /*border:1px solid #000;*/
+    }
+    #popout #adbox .popup_link2 {
+        position: absolute;
+        width: 222px;
+        height: 34px;
+        top: 266px;
+        left: 263px;
+        /*border:1px solid #000;*/
+    }
+    #popout #adbox .popup_link3 {
+        position: absolute;
+        width: 222px;
+        height: 28px;
+        top: 312px;
+        left: 263px;
+        /*border:1px solid #000;*/
+    }
+#popout .darkness {
+    background: none repeat scroll 0 0 #000000;
+    /*border: 1px solid #CECECE;*/
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9997;
+}
+#popout .btn {
+    bottom: 26px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -5000px;
+    cursor: pointer;
+    height: 31px;
+    left: 403px;
+    top: 206px;
+    width: 131px;
+}
+  #popout .box{
+                margin: 0 auto;
+                height: 360px;
+                width: 630px;
+                background: transparent;
+                border-radius: 5px;
+                position: relative;
+            }
+            #popout .box img{
+                width: 100%;
+                height: 100%;
+            }
+            #popout .box a.chu_a{
+                opacity: 1;
+                text-decoration: none;
+                outline: 0;
+                position: absolute;
+                bottom: 180px;
+                right: -90px;
+                color: #16a085;
+                -webkit-animation: mymove infinite; 
+                -webkit-animation-duration: 1s,3s;
+                animation: mymove 5s infinite;
+                animation-duration: 0.8s;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                -ms-transition: all 0.8s;
+                -o-transition: all 0.8s;
+                transition: all 0.8s;
+            }
+            #popout .box .chu_b{
+                text-decoration: none;
+                outline: 0;
+                position: absolute;
+                bottom: 110px;
+                right: -60px;
+                color: #16a085;
+                display: none;
+                -webkit-animation: mymove infinite; 
+                -webkit-animation-duration: 1s,3s; 
+                animation: mymove 5s infinite;
+                animation-duration: 0.8s;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                -ms-transition: all 0.8s;
+                -o-transition: all 0.8s;
+                transition: all 0.8s;
+            }
+            #popout .box .chu_c{
+                opacity: 1;
+                text-decoration: none;
+                outline: 0;
+                position: absolute;
+                bottom: 20px;
+                right: -60px;
+                color: #16a085;
+                display: none;
+                -webkit-animation: mymove infinite; 
+                -webkit-animation-duration: 1s,3s; 
+                animation: mymove 5s infinite;
+                animation-duration: 0.8s;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                -ms-transition: all 0.8s;
+                -o-transition: all 0.8s;
+                transition: all 0.8s;
+            }
+            #popout .box .chu_d{
+                opacity: 1;
+                text-decoration: none;
+                outline: 0;
+                position: absolute;
+                bottom: -120px;
+                right: -60px;
+                color: #16a085;
+                display: none;
+                -webkit-animation: mymove infinite; 
+                -webkit-animation-duration: 1s,3s; 
+                animation: mymove 5s infinite;
+                animation-duration: 0.8s;
+                -webkit-transition: all 0.8s;
+                -moz-transition: all 0.8s;
+                -ms-transition: all 0.8s;
+                -o-transition: all 0.8s;
+                transition: all 0.8s;
+            }
+            /* Chrome, Safari, Opera */
+            @-webkit-keyframes mymove {
+                from {right:  -120px;}
+                to {right: -90px;}
+            }
+            @keyframes mymove {
+                from {right:  -120px;}
+                to {right: -90px;}
+            }
+            #popout .bt_1{
+                position: absolute;
+                bottom: 95px;
+                right: 15px;
+            }
+            #popout .bt_2{
+                position: absolute;
+                bottom: 13px;
+                right: 15px;
+            }
+            #popout .bt_1:hover{
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+            #popout .bt_2:hover{
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+            #popout .bt_3:hover{
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+            #popout .but_a{
+                padding: 1px;
+                position: absolute;
+                bottom: 95px;
+                right: 15px;
+                height: 143px;
+                width: 409px;
+                background: url('bt_1_1.png')/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bt_1_1.png*/no-repeat;
+            }             
+            #popout .but_a:hover{
+                 -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                background: url('bt_1.png')/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bt_1.png*/no-repeat;
+            }
+           
+            #popout .but_b{
+                padding: 1px;
+                position: absolute;
+                 bottom: 13px;
+                right: 15px;
+                height: 145px;
+                width: 409px;
+                background: url('bt_2_1.png')/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bt_2_1.png*/no-repeat;
+            }
+            #popout .but_b:hover{
+                 -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                background: url('bt_2.png')/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bt_2.png*/ no-repeat;
+            }
+            #popout .but_c{
+                padding: 1px;
+                position: absolute;
+                bottom: 13px;
+                right: 15px;
+                height: 66px;
+                width: 409px;
+                background: url('bt_3_1.png')/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bt_3_1.png*/no-repeat;
+            }
+            #popout .but_c:hover{
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                background: url('bt_3.png')/*tpa=http://m.tuyensinh.duytan.edu.vn/Themes/popup/image/bt_3.png*/no-repeat;
+            }
+@media screen and (max-width: 480px) {
+    #popout #adbox{
+        margin:0 5px !important;
+        left:0;
+        top:25%;
+    }
+    #adbox img{
+        width:100%;
+    }
+    #popout a#close {
+        right: 7px;
+        top: 6px;
+        height: 28px;
+        width: 28px;
+    }
+    #popout #adbox .popup_link1 {
+        width: 190px;
+        height: 25px;
+        top: 193px;
+        left: 225px;       
+    }
+    #popout #adbox .popup_link2 {
+        width: 190px;
+        height: 30px;
+        top: 227px;
+        left: 225px;
+    }
+    #popout #adbox .popup_link3 {
+        width: 190px;
+        height: 25px;
+        top: 265px;
+        left: 225px;
+    }
+}
+@media screen and (max-width: 414px) {
+    #popout a#close {
+        right: 6px;
+        top: 5px;
+        height: 24px;
+        width: 25px;
+    }
+    #popout #adbox .popup_link1 {
+        width: 164px;
+        height: 22px;
+        top: 166px;
+        left: 193px;       
+    }
+    #popout #adbox .popup_link2 {
+        width: 164px;
+        height: 27px;
+        top: 194px;
+        left: 193px;
+    }
+    #popout #adbox .popup_link3 {
+        width: 164px;
+        height: 22px;
+        top: 228px;
+        left: 193px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    #popout a#close {
+	right: 5px;
+    top: 4px;
+    height:23px;
+    width:23px;
+    }
+    #popout #adbox .popup_link1 {
+        width: 148px;
+        height: 20px;
+        top: 150px;
+        left: 174px;       
+    }
+    #popout #adbox .popup_link2 {
+        width: 148px;
+        height: 24px;
+        top: 176px;
+        left: 174px;
+    }
+    #popout #adbox .popup_link3 {
+        width: 148px;
+        height: 20px;
+        top: 206px;
+        left: 174px;
+    }
+}
+@media screen and (max-width: 360px) {
+    
+    #popout a#close {
+	right: 5px;
+    top: 4px;
+    height:22px;
+    width:22px;
+    }
+    #popout #adbox .popup_link1 {
+        width: 142px;
+        height: 20px;
+        top: 144px;
+        left: 167px;       
+    }
+    #popout #adbox .popup_link2 {
+        width: 142px;
+        height: 24px;
+        top: 168px;
+        left: 167px;
+    }
+    #popout #adbox .popup_link3 {
+        width: 142px;
+        height: 20px;
+        top: 198px;
+        left: 167px;
+    }
+}

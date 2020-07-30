@@ -1,0 +1,137 @@
+#utilities {}
+#utilities .info input{height:20px;}
+#utilities .info .select_option {height:25px;width:100%;}
+#utilities .info .error{}
+#utilities .info .lb_title{padding-top:10px;font-weight:bold;color:#000;}
+#utilities .info .lb_title span{font-weight:normal;color:red;font-style:italic;font-size:11px;}
+#utilities .info .txt_box{padding-top:7px;clear:both;}
+#utilities .info lb_title{}
+#utilities .info .mark2{display:none;}
+#utilities .select2{float:right;}
+#MainContent_results {
+    border:1px solid #ccc;
+    padding:0;
+    line-height:18px;
+    margin-top:10px;
+}
+#MainContent_results h3
+        {
+            background-color: #B01A25;
+            height: 25px;
+            padding-left: 10px;
+            color: #fff;
+            font-weight: bold;
+            padding:7px 0 0 15px;
+            text-transform:uppercase;
+        }
+#MainContent_results .content_result{padding:10px;}
+#MainContent_results .note_info {padding-top: 10px;}
+#MainContent_results .title_hb{padding:5px;background:url(dot-01.gif)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/dot-01.gif*/ no-repeat 5px 12px;padding-left:15px;margin-left:10px;}
+#MainContent_results .title_hb_1{padding:5px;background:url(arrow.gif)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/arrow.gif*/ no-repeat 5px 10px;padding-left:15px;}
+#MainContent_results .note{padding:5px 10px 10px 10px;font-style:italic;}
+#MainContent_results .note_dau{font-weight:bold;}
+#MainContent_results .note span{font-weight:bold;color:#A4312E;padding-right:7px;font-style:normal;}
+#MainContent_results .noteError{font-weight:bold;color:#A4312E;}
+#MainContent_results .node_xet {color:#e46695;}
+/*STYLE KET QUA HOC BONG*/
+.waiting{padding-left: 47%; display: none;clear:both;padding-top:10px;}
+.home_content_results{clear:both;line-height:20px;}
+.content_results{clear:both;line-height:20px;background:#A4312E;border-radius: 3px 3px 3px 3px;}
+.content_results .block1{font-weight:bold;font-size:13px;background:url(arrow.gif)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/arrow.gif*/ no-repeat 7px 13px;color:#fff;padding:7px 7px 7px 15px;border-bottom:1px solid #fff;cursor:pointer;}
+
+.content_results .dkc{display:none;border-bottom:1px solid #fff;padding:4px 5px 4px 20px;border:1px solid #ccc;background-color:#fff; border-top:none;}
+.content_results .dkc .title_line{font-weight:bold;font-size:12px;}
+.content_results .dkr{padding-bottom:10px;background:url(icon-default.png)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-default.png*/ no-repeat 0px 8px;padding-left:8px;}
+.content_results .dk_nganh{background:url(icon-default.png)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-default.png*/ no-repeat 5px 7px;font-style:italic;padding-left:15px}
+.content_results .hthuc{font-style:italic;}
+.content_results .sotienhb{color:#a4312e;font-size:14px !important;}
+.content_results .dkhb{text-decoration:underline;color:#A4312E;font-weight:bold;}
+.content_results span.dk_title{color:#A4312E;}
+.content_results span.second{}
+.select_bac{margin-top:15px;}
+#utilities div.button {
+    text-align: center;
+}
+#utilities input.button{height:30px;width:140px;font-size:11pt;background-color:#b01a25;color:#fff;margin-top: 10px;cursor:pointer;border-radius: 20px;
+border: none;-webkit-box-shadow: 1px 1px 1px #666;box-shadow: 1px 1px 1px #666;
+}
+#utilities .lb_note{margin:7px 0 5px 0;line-height:1.4;font-style:italic;font-size:11px;}
+#utilities .lb_title span.cb{line-height:2.2;font-weight:bold;color:#000;font-size:12px;font-style:normal;}
+#utilities .lb_title span.namTN{margin-left:10px;}
+#utilities .lb_title span.namTN input{width:40px;vertical-align:top;}
+#utilities .combobox {width:100%;
+}
+/*Style Đăng ký học bạ*/
+
+#viewtable{margin:10px 0;clear:both;}
+#viewtable table.tbhocba {width:100%;}
+#viewtable table.tbhocba,
+#viewtable table.tbhocba th,
+#viewtable table.tbhocba td{border:1px solid #ccc;text-align:center;vertical-align:middle;line-height:1.5;}
+#viewtable table.tbhocba td.td_tb{width:120px;text-align:center;}
+#viewtable table.tbhocba td{padding:2px 2px;}
+#viewtable table.tbhocba td input{margin:0;height:15px;}
+#viewtable table.tbhocba td .markcoures{width:23px;text-align:center;font-size:11px;}
+#viewtable table.tbhocba td .markcourestb{text-align:center;font-size:11px;}
+#viewtable table.tbhocba td .course1,#viewdetail table.tbhocba td .course2,#viewdetail table.tbhocba td .course3{}
+
+.ui-button { margin-left: -1px;width:20%;}
+.ui-button-icon-only .ui-button-text { padding: 0.35em; }
+.ui-autocomplete-input {
+    margin: 0;
+    padding: 5px;
+    width:80%;
+}
+
+.ui-widget{
+ font-size: 13px !important;
+ font-family: Arial, sans-serif !important;
+}
+.ui-autocomplete-input{ 
+ padding:4px !important; 
+}
+.ui-menu{
+ overflow: auto;
+ height: 200px;
+}
+.ui-menu .ui-menu-item a {
+ transition: none !important; 
+ -moz-transition: none !important;
+ -webkit-transition: none !important;
+ -o-transition: none !important;
+ zoom:0 !important;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active { 
+ margin: 0 !important;
+}
+.ui-corner-left { -moz-border-radius-topleft: 0 !important/*{cornerRadius}*/; -webkit-border-top-left-radius: 0 !important/*{cornerRadius}*/; border-top-left-radius: 0 !important/*{cornerRadius}*/; -moz-border-radius-bottomleft: 0 !important/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 0 !important/*{cornerRadius}*/; border-bottom-left-radius: 0 !important/*{cornerRadius}*/; 
+-moz-border-radius-topright: 0 !important/*{cornerRadius}*/; -webkit-border-top-right-radius: 0 !important/*{cornerRadius}*/; border-top-right-radius: 0 !important/*{cornerRadius}*/; -moz-border-radius-bottomright: 0 !important/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 0 !important/*{cornerRadius}*/; border-bottom-right-radius: 0 !important/*{cornerRadius}*/;
+}
+.ui-corner-all { -moz-border-radius: 0 !important/*{cornerRadius}*/; -webkit-border-radius: 0 !important/*{cornerRadius}*/; border-radius: 0 !important/*{cornerRadius}*/; }
+/*Style kết quả Xét tuyển*/
+#utilities .form_result {margin:10px;}
+#utilities .form_result .hoten{height:25px;width:100%;margin-bottom:5px;}
+#utilities .form_result .ngaysinh1{height:31px;width:20%;}
+#utilities .form_result .ngaysinh2{height:31px;width:30%;}
+#utilities .form_result .button_search{width:25%;background: #a4312e;height:30px;padding:0 10px;color:#fff;border-radius:2px;box-shadow: 1px 1px 1px #a4312e;border:0;cursor:pointer;}
+#utilities .search_note{margin:10px;}
+#utilities .search_result{margin:0 10px;}
+#utilities .search_result table.tbhocba {width:100%;}
+#utilities .search_result table.tbhocba,
+#utilities .search_result table.tbhocba th,
+#utilities .search_result table.tbhocba td{border:1px solid #ccc;vertical-align:middle;}
+#utilities .search_result table.tbhocba td{padding:3px;line-height:1.5;}
+#utilities .search_result .colunm_title{background-color:#666666;color:#fff;}
+#utilities .search_result .colunm_last{border-bottom: 5px solid #666;} 
+#utilities .search_result .tbhocba .font_bold{font-weight:bold;}
+#utilities .search_result .tbhocba .font_ns{font-style:italic;}
+#utilities .search_result .tbhocba p{margin:0 !important;}
+#utilities .search_result .note_result{color:#b01a25}
+#utilities .search_paging{display:block;height:40px;}
+#utilities .search_paging ul.paging{float:left;margin:7px;}  
+#utilities .search_paging ul.paging li{margin:0 5px;float:left;border:1px solid #ccc; height:25px;width:25px;background-color:#666;color:#fff;text-align:center;display:block;}
+#utilities .search_paging ul.paging li.current{background-color:#b01a25;} 
+#utilities .search_paging ul.paging li.current span{padding-top:3px;}
+#utilities .search_paging ul.paging li a{text-align:center;padding:3px 0;display:block;color:#fff;height:19px;}
+#utilities .search_paging ul.paging li a:hover{background-color:#b01a25;}

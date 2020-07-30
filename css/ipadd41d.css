@@ -1,0 +1,182 @@
+
+
+body, div, p, a, table, td {
+	-webkit-text-size-adjust: none;
+	letter-spacing: .015em;
+}
+
+.wrapper {
+	width: 680px;
+}
+
+.main-content-right {
+	display: none;
+}
+
+.right.menu-search {
+	display: none;
+}
+
+.header-middle .banner {
+	margin-top: 8px;
+	width: 330px;
+}
+
+.header-middle .banner img {
+	width: 100%;
+	height: auto;
+}
+
+.header .header-menu li a {
+	font-size: 13px;
+	padding: 14px 16px;
+}
+
+.header .header-menu ul.main-menu > li > ul.sub-menu > li > ul.sub-menu {
+	margin-top: -35px;
+}
+
+.header .header-undermenu ul li a {
+	font-size: 9px;
+}
+
+.social-icons-float {
+	display: none;
+}
+
+.gallery-box-thumbs .control-left,
+.gallery-box-thumbs .control-right {
+	display: none!important;
+}
+
+.gallery-box-main-image img {
+	max-width: 640px;
+	width: auto;
+}
+
+.lightbox .lightcontent, .lightbox .lightcontent-loading {
+	width: 680px;
+}
+
+.archive .archive-block {
+	width: 210px;
+}
+
+.archive .article-big-block .article-photo, .archive .article-big-block .article-photo img {
+	width: 210px;
+	height: auto;
+}
+
+.article-big-block .article-header h2, .article-small-block .article-header h2 {
+	font-size: 16px;
+}
+
+.article-big-block .article-links .article-icon-link, .article-small-block .article-links .article-icon-link, .images-content .article-links .article-icon-link, .article-middle-block .article-links .article-icon-link, .article-side-block .article-links .article-icon-link, .article-classic .article-links .article-icon-link {
+	font-size: 9px;
+}
+
+.gallery .gallery-block {
+	width: 210px;
+}
+
+.gallery .article-big-block .article-photo, .gallery .article-big-block .article-photo img {
+	width: 210px;
+	height: auto;
+}
+
+.gallery .gallery-block .article-content {
+	height: 71px;
+}
+
+.gallery .gallery-block .content-panel.gallery-panel {
+	margin-right: 0px;
+}
+
+.gallery-panel .the-button {
+	font-size: 10px;
+	padding: 6px 0px;
+}
+
+.gallery-box .gallery-box-thumbs {
+	overflow: hidden;
+	overflow-x: scroll;
+}
+
+#writecomment p label {
+	position: inherit;
+	display: block;
+	right: auto;
+}
+
+#writecomment p label .required {
+	position: relative;
+}
+
+#writecomment input[type=text] {
+	width: 100%;
+}
+
+#writecomment p .comment-error {
+	width: 100%;
+}
+
+
+#writemessage p label {
+	position: inherit;
+	display: block;
+	right: auto;
+}
+
+#writemessage p label .required {
+	position: relative;
+}
+
+#writemessage input[type=text] {
+	width: 100%;
+}
+
+#writemessage p .comment-error {
+	width: 100%;
+}
+
+.text-indent {
+	text-indent: 0px;
+}
+
+#themap {
+	width: 100%;
+}
+
+.header-undermenu .wrapper {
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+
+
+.boxed.active {
+	width: 100%;
+	min-height: 100%;
+	box-shadow: none;
+}
+
+
+
+.header-undermenu .wrapper ul.secondary-menu {
+	white-space: nowrap;
+}
+
+.header .header-undermenu ul li {
+	float: none;
+	display: inline-block;
+}
+
+.weather-report {
+	display: none;
+}
+
+.footer-content .footer-menu ul li {
+	margin-right: 7px;
+	padding-right: 9px;
+	font-size: 9px;
+}

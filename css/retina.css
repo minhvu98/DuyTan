@@ -1,0 +1,26 @@
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-moz-max-device-pixel-ratio: 2) {
+	
+	.header .menu-search input[type=submit] {
+		background-image: url(icon-search_2x.png)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-search_2x.png*/;
+	}
+	
+	.breaking-news .breaking-icon {
+		background-image: url(icon-breaking_2x.png)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-breaking_2x.png*/;
+	}
+	
+	span.image-hover span.drop-icons .icon-block.icon-loupe {
+		background-image: url(icon-article-loupe_2x.png)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-article-loupe_2x.png*/;
+	}
+	
+	span.image-hover span.drop-icons .icon-block.icon-link {
+		background-image: url(icon-article-link_2x.png)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-article-link_2x.png*/;
+	}
+	
+	.article-array li {
+		background: url(icon-article-array_2x.jpg)/*tpa=http://m.tuyensinh.duytan.edu.vn/images/icon-article-array_2x.jpg*/ no-repeat 0px 7px;
+	}
+	
+}
+
